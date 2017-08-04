@@ -51,10 +51,11 @@ public class UserProfil {
         super();
     }
 
-    public UserProfil(String firstname, String lastname) {
+    public UserProfil(String firstname, String lastname, String email) {
         super();
         this.firstname = firstname;
         this.lastname = lastname;
+        this.email = email;
     }
 
     public UserProfil(User user, boolean includePrivateData) {
